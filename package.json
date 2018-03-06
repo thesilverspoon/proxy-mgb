@@ -1,0 +1,26 @@
+{
+  "name": "proxy-mgb",
+  "version": "1.0.0",
+  "description": "Mat's proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesilverspoon/proxy-mgb.git"
+  },
+  "keywords": [
+    "proxy",
+    "fec"
+  ],
+  "author": "MatGBX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thesilverspoon/proxy-mgb/issues"
+  },
+  "homepage": "https://github.com/thesilverspoon/proxy-mgb#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
