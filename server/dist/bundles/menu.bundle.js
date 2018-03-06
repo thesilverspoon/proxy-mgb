@@ -13216,7 +13216,7 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, ".MenuViewStyles__menuViewBox___3-gMr {\n  width: 650px;\n  height: 1100px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.MenuViewStyles__title___3RyIM {\n  font-family: Lato;\n  color: #333333;\n  font-weight: bold;\n  display: flex;\n  border-bottom: 1px solid #e1e1e1;\n}\n\n.MenuViewStyles__menuNav___3YIMJ {\n  height: 50px;\n  padding-bottom: 16px;\n  margin-top: 16px;\n  border-bottom: 1px solid #e1e1e1;\n}\n\n.MenuViewStyles__lunchBtn___U9n4d {\n  font-size: 0.875rem;\n  font-family: Lato;\n  line-height: 1.43;\n  text-align: center;\n  width: 100px;\n  display: inline-block;\n  padding: 5px 0px 5px 0px;\n  margin-right: 10px;\n  border: 2px solid #e1e1e1;\n  border-radius: 2px;\n  box-sizing: border-box;\n}\n\n.MenuViewStyles__lunchBtn___U9n4d:focus {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}\n\n.MenuViewStyles__lunchBtn___U9n4d:hover {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}\n\n.MenuViewStyles__dinnerBtn___3oACQ {\n  font-size: 0.875rem;\n  font-family: Lato;\n  line-height: 1.43;\n  text-align: center;\n  width: 100px;\n  display: inline-block;\n  padding: 5px 0px 5px 0px;\n  margin-right: 10px;\n  border: 2px solid #e1e1e1;\n  border-radius: 2px;\n  box-sizing: border-box;\n}\n\n.MenuViewStyles__dinnerBtn___3oACQ:focus {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}\n\n.MenuViewStyles__dinnerBtn___3oACQ:hover {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}\n.MenuViewStyles__dessertBtn___2YKlA {\n  font-size: 0.875rem;\n  font-family: Lato;\n  line-height: 1.43;\n  text-align: center;\n  width: 100px;\n  display: inline-block;\n  padding: 5px 0px 5px 0px;\n  margin-right: 10px;\n  border: 2px solid #e1e1e1;\n  border-radius: 2px;\n  box-sizing: border-box;\n}\n\n.MenuViewStyles__dessertBtn___2YKlA:focus {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}\n\n.MenuViewStyles__dessertBtn___2YKlA:hover {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}", ""]);
+exports.push([module.i, ".MenuViewStyles__menuViewBox___3-gMr {\n  width: 650px;\n  height: auto;\n  margin-left: auto;\n  margin-right: auto;\n  overflow: auto;\n  /*padding-bottom: 50px;*/\n}\n\n.MenuViewStyles__title___3RyIM {\n  font-family: Lato;\n  color: #333333;\n  font-weight: bold;\n  display: flex;\n  border-bottom: 1px solid #e1e1e1;\n}\n\n.MenuViewStyles__menuNav___3YIMJ {\n  height: 50px;\n  padding-bottom: 16px;\n  margin-top: 16px;\n  border-bottom: 1px solid #e1e1e1;\n}\n\n.MenuViewStyles__lunchBtn___U9n4d {\n  font-size: 0.875rem;\n  font-family: Lato;\n  line-height: 1.43;\n  text-align: center;\n  width: 100px;\n  display: inline-block;\n  padding: 5px 0px 5px 0px;\n  margin-right: 10px;\n  border: 2px solid #e1e1e1;\n  border-radius: 2px;\n  box-sizing: border-box;\n}\n\n.MenuViewStyles__lunchBtn___U9n4d:focus {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}\n\n.MenuViewStyles__lunchBtn___U9n4d:hover {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}\n\n.MenuViewStyles__dinnerBtn___3oACQ {\n  font-size: 0.875rem;\n  font-family: Lato;\n  line-height: 1.43;\n  text-align: center;\n  width: 100px;\n  display: inline-block;\n  padding: 5px 0px 5px 0px;\n  margin-right: 10px;\n  border: 2px solid #e1e1e1;\n  border-radius: 2px;\n  box-sizing: border-box;\n}\n\n.MenuViewStyles__dinnerBtn___3oACQ:focus {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}\n\n.MenuViewStyles__dinnerBtn___3oACQ:hover {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}\n.MenuViewStyles__dessertBtn___2YKlA {\n  font-size: 0.875rem;\n  font-family: Lato;\n  line-height: 1.43;\n  text-align: center;\n  width: 100px;\n  display: inline-block;\n  padding: 5px 0px 5px 0px;\n  margin-right: 10px;\n  border: 2px solid #e1e1e1;\n  border-radius: 2px;\n  box-sizing: border-box;\n}\n\n.MenuViewStyles__dessertBtn___2YKlA:focus {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}\n\n.MenuViewStyles__dessertBtn___2YKlA:hover {\n  border: 2px solid red;\n  border-radius: 2px;\n  outline: 0;\n}", ""]);
 
 // exports
 exports.locals = {
@@ -13393,58 +13393,54 @@ var EntreeMenu = function EntreeMenu(props) {
   }
   return _react2.default.createElement(
     'section',
-    null,
+    { className: _EntreeMenuStyles2.default.itemList },
     _react2.default.createElement(
       'section',
-      { className: _EntreeMenuStyles2.default.itemList },
-      _react2.default.createElement(
-        'section',
-        { className: _EntreeMenuStyles2.default.itemBox },
-        _react2.default.createElement(
-          'div',
-          { className: _EntreeMenuStyles2.default.header },
-          headers[0]
-        ),
-        items[0].map(function (data) {
-          return _react2.default.createElement(_MenuItem2.default, { item: data });
-        })
-      ),
+      { className: _EntreeMenuStyles2.default.itemBox },
       _react2.default.createElement(
         'div',
-        null,
-        _react2.default.createElement(
-          'div',
-          { className: _EntreeMenuStyles2.default.header + ' ' + _EntreeMenuStyles2.default.pad },
-          headers[1]
-        ),
-        items[1].map(function (data) {
-          return _react2.default.createElement(_MenuItem2.default, { item: data });
-        })
+        { className: _EntreeMenuStyles2.default.header + ' ' + _EntreeMenuStyles2.default.pad },
+        headers[0]
       ),
+      items[0].map(function (data) {
+        return _react2.default.createElement(_MenuItem2.default, { item: data });
+      })
+    ),
+    _react2.default.createElement(
+      'section',
+      { className: _EntreeMenuStyles2.default.itemBox },
       _react2.default.createElement(
         'div',
-        null,
-        _react2.default.createElement(
-          'div',
-          { className: _EntreeMenuStyles2.default.header + ' ' + _EntreeMenuStyles2.default.pad },
-          headers[2]
-        ),
-        items[2].map(function (data) {
-          return _react2.default.createElement(_MenuItem2.default, { item: data });
-        })
+        { className: _EntreeMenuStyles2.default.header },
+        headers[1]
       ),
+      items[1].map(function (data) {
+        return _react2.default.createElement(_MenuItem2.default, { item: data });
+      })
+    ),
+    _react2.default.createElement(
+      'section',
+      { className: _EntreeMenuStyles2.default.itemBox },
       _react2.default.createElement(
         'div',
-        null,
-        _react2.default.createElement(
-          'div',
-          { className: _EntreeMenuStyles2.default.header + ' ' + _EntreeMenuStyles2.default.pad },
-          headers[3]
-        ),
-        items[3].map(function (data) {
-          return _react2.default.createElement(_MenuItem2.default, { item: data });
-        })
-      )
+        { className: _EntreeMenuStyles2.default.header },
+        headers[2]
+      ),
+      items[2].map(function (data) {
+        return _react2.default.createElement(_MenuItem2.default, { item: data });
+      })
+    ),
+    _react2.default.createElement(
+      'section',
+      { className: _EntreeMenuStyles2.default.itemBox },
+      _react2.default.createElement(
+        'div',
+        { className: _EntreeMenuStyles2.default.header },
+        headers[3]
+      ),
+      items[3].map(function (data) {
+        return _react2.default.createElement(_MenuItem2.default, { item: data });
+      })
     )
   );
 };
@@ -14228,11 +14224,12 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, ".EntreeMenuStyles__itemList___7wuvV {\n  padding-bottom: 200px;\n}\n\n.EntreeMenuStyles__header___1gaHK {\n  width: 650px;\n  font-weight: 700;\n  font-family: Poppins;\n  color: 333333;\n  float: left;\n  border-bottom: 1px solid #e1e1e1;\n  padding-bottom: 10px;\n  margin-top: 15px;\n}\n\n.EntreeMenuStyles__header___1gaHK.EntreeMenuStyles__pad___3tZTJ {\n  margin-top: 45px;\n}", ""]);
+exports.push([module.i, ".EntreeMenuStyles__itemList___7wuvV {\n  width: 650px;\n  display: block;\n  height: auto;\n  overflow: auto;\n  padding-bottom: 20px;\n}\n\n.EntreeMenuStyles__itemBox___UY5Rt {\n  width: 650px;\n  height: auto;\n  display: block;\n  overflow: auto;\n  padding-bottom: 20px;\n}\n\n.EntreeMenuStyles__header___1gaHK {\n  width: 650px;\n  font-weight: 700;\n  font-family: Poppins;\n  color: 333333;\n  float: left;\n  border-bottom: 1px solid #e1e1e1;\n  padding-bottom: 10px;\n}\n\n.EntreeMenuStyles__header___1gaHK.EntreeMenuStyles__pad___3tZTJ {\n  margin-top: 20px;\n}", ""]);
 
 // exports
 exports.locals = {
   "itemList": "EntreeMenuStyles__itemList___7wuvV",
+  "itemBox": "EntreeMenuStyles__itemBox___UY5Rt",
   "header": "EntreeMenuStyles__header___1gaHK",
   "pad": "EntreeMenuStyles__pad___3tZTJ"
 };
@@ -14271,20 +14268,16 @@ var DessertFilterMenu = function DessertFilterMenu(props) {
     return _react2.default.createElement('div', null);
   }
   return _react2.default.createElement(
-    'section',
-    null,
+    'div',
+    { className: _DessertFilterStyles2.default.itemBox },
     _react2.default.createElement(
-      'section',
-      { className: _DessertFilterStyles2.default.itemBox },
-      _react2.default.createElement(
-        'div',
-        { className: _DessertFilterStyles2.default.header },
-        header
-      ),
-      props.menu.map(function (data) {
-        return _react2.default.createElement(_MenuItem2.default, { item: data });
-      })
-    )
+      'div',
+      { className: _DessertFilterStyles2.default.header },
+      header
+    ),
+    props.menu.map(function (data) {
+      return _react2.default.createElement(_MenuItem2.default, { item: data });
+    })
   );
 };
 
@@ -14349,11 +14342,12 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, ".DessertFilterStyles__header___2qXm1 {\n  width: 650px;\n  font-weight: 700;\n  font-family: Poppins;\n  color: 333333;\n  float: left;\n  border-bottom: 1px solid #e1e1e1;\n  padding-bottom: 10px;\n  margin-top: 15px;\n}\n\n", ""]);
+exports.push([module.i, ".DessertFilterStyles__header___2qXm1 {\n  width: 650px;\n  font-weight: 700;\n  font-family: Poppins;\n  color: 333333;\n  float: left;\n  border-bottom: 1px solid #e1e1e1;\n  padding-bottom: 10px;\n  margin-top: 15px;\n}\n\n.DessertFilterStyles__itemBox___3tRbf {\n  width: 650px;\n  height: auto;\n  display: block;\n  padding-bottom: 35px;\n  overflow: auto;\n}\n\n", ""]);
 
 // exports
 exports.locals = {
-  "header": "DessertFilterStyles__header___2qXm1"
+  "header": "DessertFilterStyles__header___2qXm1",
+  "itemBox": "DessertFilterStyles__itemBox___3tRbf"
 };
 
 /***/ })
