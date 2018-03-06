@@ -1,0 +1,34 @@
+{
+  "name": "proxy-mgb",
+  "version": "1.0.0",
+  "description": "Mat's proxy server",
+  "main": "server/proxy-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "state": "nodemon basic.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesilverspoon/proxy-mgb.git"
+  },
+  "keywords": [
+    "proxy",
+    "fec"
+  ],
+  "author": "MatGBX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thesilverspoon/proxy-mgb/issues"
+  },
+  "homepage": "https://github.com/thesilverspoon/proxy-mgb#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.17.1",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "webpack": "^3.11.0"
+  }
+}
