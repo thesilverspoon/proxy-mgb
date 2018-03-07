@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>silverSpoon basic</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./styles/about.css">
+  <link rel="stylesheet" type="text/css" href="./styles/reviews.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script> 
 </head>
+<header>silverSpoon</header>
 <body>
-  <!-- script tags here for each comp -->
+  <div id="about"></div>
+  <div id="reservations"></div>
+  <div id="menu"></div>
+  <div id="reviews"></div>
+  <script type="text/javascript" src="./bundles/about.bundle.js"></script>
+  <script type="text/javascript" src="./bundles/reservations.bundle.js"></script>
+  <script type="text/javascript" src="./bundles/menu.bundle.js"></script>
+  <script type="text/javascript" src="./bundles/reviews.bundle.js"></script>
+  <script>  
+  ReactDOM.render(
+    React.createElement(SummaryView, { id: <%= id %> }, null),
+    document.getElementById('about')
+  );
+
+  ReactDOM.render(
+    React.createElement(Reservation, { id: <%= id %> }, null),
+    document.getElementById('reservations')
+  );
+
+  ReactDOM.render(
+    React.createElement(MenuView, { id: <%= id %> }, null),
+    document.getElementById('menu')
+  );
+
+  ReactDOM.render(
+    React.createElement(App, { id: <%= id %> }, null),
+    document.getElementById('reviews')
+  );
+  </script>
 </body>
 </html>
