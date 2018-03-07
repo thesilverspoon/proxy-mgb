@@ -1,11 +1,11 @@
 #/bin/sh
 
-cp ./about-photos-component/client/dist/bundle.js ./dist/about-bundle.js
-cp ./about-photos-component/client/styles.css ./dist/about-styles.css
+cp ../client-components/about-photos-component/client/dist/bundle.js ./dist/bundles/about-bundle.js
+cp ../client-components/about-photos-component/client/styles.css ./dist/styles/about.css
 
-cp ./reservations-component/client/dist/bundle-prod.js ./dist/res-bundle.js
+cp ../client-components/reservations-component/client/dist/bundle-prod.js ./dist/bundles/reservations-bundle.js
 
-cp ./reviews-component/react/dist/reviews.css ./dist/reviews-reviews.css
-cp ./reviews-component/react/dist/bundle-prod.js ./dist/reviews-bundle.js
+cp ../client-components/reviews-component/react/dist/reviews.css ./dist/styles/reviews.css
+cp ../client-components/reviews-component/react/dist/bundle-prod.js ./dist/bundles/reviews-bundle.js
 
-cp ./menu-component/src/public/bundle-prod.js ./dist/menu-bundle.js
+cp ../client-components/menu-component/src/public/bundle-prod.js ./dist/bundles/menu-bundle.js
