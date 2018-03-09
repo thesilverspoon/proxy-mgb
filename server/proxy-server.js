@@ -15,7 +15,7 @@ app.get('/:id', (req, res) => {
     res.send(result);
   });
 })
-const port = 5005;
+const port = process.env.PORT || 5005;
 
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
