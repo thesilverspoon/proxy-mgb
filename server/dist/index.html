@@ -3,14 +3,30 @@
 <head>
   <title>silverSpoon basic</title>
   <style type="text/css">
-    #main {
-      width: 960px;
+    #mainDisplay {
+      width: 1080px;
       height: auto;
       margin-left: auto;
       margin-right: auto;
       overflow: hidden;
-      background-image: url("./styles/silver_background.jpg");
+      background-image: url("./styles/imageb2.jpg");
     }
+    #about {
+      margin-bottom: 20px;
+    }
+
+    #reservations {
+      margin-bottom: 20px;
+    }
+
+    #menu {
+      margin-bottom: 20px;
+    }
+
+    .reservation {
+      width: 1020px;
+    }
+
 
   </style>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -24,11 +40,13 @@
 </head>
 <header>silverSpoon</header>
 <body>
-  <section id="main">
+  <section id="mainDisplay">
     <div id="about"></div>
     <div id="reservations"></div>
     <div id="menu"></div>
-    <div id="reviews"></div>
+    <div id="reviews">
+      <div id="reviewBox"></div>
+    </div>
   </section>
   <script type="text/javascript" src="http://abouts.us-east-2.elasticbeanstalk.com/bundle-prod.js"></script>
   <script type="text/javascript" src="http://restaurantsreview-env.us-west-1.elasticbeanstalk.com/bundle-prod.js"></script>
