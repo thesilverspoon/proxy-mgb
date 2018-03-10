@@ -8,13 +8,31 @@
   background: #f7f7f7;
 }
 
-#main {
-  background: #f7f7f7;
+#reviews {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 720px;
+  box-shadow: 0 2px 8px #c1bfbf;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.title {
+  font-size: 45px;
+}
+
+#about {
+  height: 887px;
+  margin-left: 38px;
+}
+
+.restaurantName, .ratings, .review {
+  background-color: white;
 }
 
 .bannerImg {
   height: 150px;
-  width: 240px;
+  width: 238.6px;
 }
 
 #app {
@@ -39,11 +57,11 @@
 .aboutWrap {
   position: relative;
   float: center;
-  padding: 25px;
+  padding: 10px;
   box-sizing: border-box;
   border: 2px solid white;
   border-radius: 10px;
-  top: 25px;
+  top: 10px;
   background: #fff;
   box-shadow: 0 2px 8px #c1bfbf;
 }
@@ -68,6 +86,11 @@
   left: 97px;
   bottom: 140px;
 }
+
+.header {
+  right: 50px;
+}
+
 .side {
   padding: 10px;
   position: relative;
@@ -76,18 +99,23 @@
   font-weight: bold;
 }
 
+.logo {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
 .sideInfoStyle {
   font-size: 13px;
   position: relative;
-  left: 15px;
+  left: 20px;
   bottom: 20px;
-  text-align: left;
 }
 
 .sideInfoPhone {
   font-size: 13px;
   position: relative;
-  left: 30px;
+  left: 20px;
   bottom: 22px;
   text-align: left;
 }
@@ -95,9 +123,8 @@
 .sideInfoHours {
   font-size: 13px;
   position: relative;
-  left: 20px;
+  left: 10px;
   bottom: 18px;
-  text-align: left;
 }
 
 .sideInfoPrice {
@@ -105,7 +132,6 @@
   position: relative;
   left: 30px;
   bottom: 5px;
-  text-align: left;
 }
 
 .phoneInfo {
@@ -127,21 +153,21 @@
   position: relative;
   height: 15px;
   width: 15px;
-  bottom: 45px;
+  bottom: 30px;
 }
 
 .moneyIcon {
   height: 20px;
   width: 20px;
   position: relative;
-  top: 27px;
+  top: 30px;
 }
 
 .phoneIcon {
   height: 15px;
   width: 15px;
   position: relative;
-  bottom: 28px;
+  bottom: 32px;
   right: 0px;
 }
 
@@ -149,7 +175,7 @@
   height: 15px;
   width: 15px;
   position: relative;
-  bottom: 28px;
+  bottom: 32px;
 }
 
 .restaurant {
@@ -164,8 +190,8 @@
 }
 
 .sidebar {
-  width: 15%;
-  bottom: 51em;
+  width: 17%;
+  bottom: 650px;
   left: 850px;
   position: relative;
   box-sizing: border-box;
@@ -182,7 +208,7 @@
   background: #f7f7f7;
   margin-left:auto;
   margin-right:auto;
-  width: 960px;
+  width: 955px;
 }
 
 .rowAbout {
