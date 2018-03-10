@@ -2,6 +2,17 @@
 <html>
 <head>
   <title>silverSpoon basic</title>
+  <style type="text/css">
+    #main {
+      width: 960px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      background-image: url("./styles/silver_background.jpg");
+    }
+
+  </style>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,10 +24,12 @@
 </head>
 <header>silverSpoon</header>
 <body>
-  <div id="about"></div>
-  <div id="reservations"></div>
-  <div id="menu"></div>
-  <div id="reviews"></div>
+  <section id="main">
+    <div id="about"></div>
+    <div id="reservations"></div>
+    <div id="menu"></div>
+    <div id="reviews"></div>
+  </section>
   <script type="text/javascript" src="http://abouts.us-east-2.elasticbeanstalk.com/bundle-prod.js"></script>
   <script type="text/javascript" src="http://restaurantsreview-env.us-west-1.elasticbeanstalk.com/bundle-prod.js"></script>
   <script type="text/javascript" src="http://silverspoon-reservations.us-west-2.elasticbeanstalk.com/bundle-prod.js"></script>
